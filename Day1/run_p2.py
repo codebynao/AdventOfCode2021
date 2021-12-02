@@ -1,6 +1,5 @@
-file = open(
-    './input.txt', 'r')
-depths = file.readlines()
+with open('./input.txt', 'r') as textInput:
+    depths = textInput.readlines()
 
 totalIncrease = 0
 lastThreeMeasurements = []
